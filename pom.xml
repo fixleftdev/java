@@ -1,43 +1,41 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.example</groupId>
-    <artifactId>my-app</artifactId>
-    <version>1.0-SNAPSHOT</version>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-             <dependency>
-            <groupId>org.springframework.ws</groupId>
-            <artifactId>spring-xml</artifactId>
-            <version>2.2.4.RELEASE</version>
-            
-        </dependency>
-    </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+<?xml version="1.0" encoding="UTF-8"?><ns0:project xmlns:ns0="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <ns0:modelVersion>4.0.0</ns0:modelVersion>
+    <ns0:groupId>com.example</ns0:groupId>
+    <ns0:artifactId>my-app</ns0:artifactId>
+    <ns0:version>1.0-SNAPSHOT</ns0:version>
+    <ns0:properties>
+        <ns0:maven.compiler.source>1.8</ns0:maven.compiler.source>
+        <ns0:maven.compiler.target>1.8</ns0:maven.compiler.target>
+    </ns0:properties>
+    <ns0:dependencies>
+        <ns0:dependency>
+            <ns0:groupId>junit</ns0:groupId>
+            <ns0:artifactId>junit</ns0:artifactId>
+            <ns0:version>4.12</ns0:version>
+            <ns0:scope>test</ns0:scope>
+        </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>org.springframework.ws</ns0:groupId>
+            <ns0:artifactId>spring-xml</ns0:artifactId>
+            <ns0:version>2.4.4</ns0:version>
+        </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>org.springframework</ns0:groupId>
+            <ns0:artifactId>spring-beans</ns0:artifactId>
+            <ns0:version>5.2.20.RELEASE</ns0:version>
+        </ns0:dependency>
+    </ns0:dependencies>
+    <ns0:build>
+        <ns0:plugins>
+            <ns0:plugin>
+                <ns0:groupId>org.apache.maven.plugins</ns0:groupId>
+                <ns0:artifactId>maven-compiler-plugin</ns0:artifactId>
+                <ns0:version>3.8.1</ns0:version>
+                <ns0:configuration>
+                    <ns0:source>1.8</ns0:source>
+                    <ns0:target>1.8</ns0:target>
+                </ns0:configuration>
+            </ns0:plugin>
+        </ns0:plugins>
+    </ns0:build>
+</ns0:project>
