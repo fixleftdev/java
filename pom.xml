@@ -29,6 +29,11 @@
             <ns0:artifactId>spring-beans</ns0:artifactId>
             <ns0:version>5.2.22.RELEASE</ns0:version>
         </ns0:dependency>
+        <ns0:dependency>
+            <ns0:groupId>org.springframework</ns0:groupId>
+            <ns0:artifactId>spring-context</ns0:artifactId>
+            <ns0:version>6.1.14</ns0:version>
+        </ns0:dependency>
     </ns0:dependencies>
     <ns0:build>
         <ns0:plugins>
