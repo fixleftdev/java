@@ -17,7 +17,7 @@
         <ns0:dependency>
             <ns0:groupId>org.springframework.ws</ns0:groupId>
             <ns0:artifactId>spring-xml</ns0:artifactId>
-            <ns0:version>2.2.4.RELEASE</ns0:version>
+            <ns0:version>2.4.4</ns0:version>
         </ns0:dependency>
         <ns0:dependency>
             <ns0:groupId>org.springframework</ns0:groupId>
