@@ -189,6 +189,11 @@
             <artifactId>protobuf-java</artifactId>
             <version>3.16.3</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>batik-bridge</artifactId>
+            <version>1.17</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
