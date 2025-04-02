@@ -204,6 +204,11 @@
             <artifactId>spring-beans</artifactId>
             <version>5.3.9</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.xmlgraphics</groupId>
+            <artifactId>batik-svgbrowser</artifactId>
+            <version>1.14</version>
+        </dependency>
     </dependencies>
     <build>
         <plugins>
