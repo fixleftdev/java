@@ -23,6 +23,7 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-beans</artifactId>
             <version>5.2.20.RELEASE</version>
+            <version>5.2.25.RELEASE</version>
         </dependency>
     </dependencies>
     <build>
