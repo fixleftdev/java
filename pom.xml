@@ -169,6 +169,11 @@
       <artifactId>batik-transcoder:1.13</artifactId>
       <version>1.17</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml:5.0.0</artifactId>
+      <version>5.4.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
