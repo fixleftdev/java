@@ -184,6 +184,11 @@
       <artifactId>xalan:2.7.2</artifactId>
       <version>2.7.3</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.santuario</groupId>
+      <artifactId>xmlsec:2.2.1</artifactId>
+      <version>2.2.3</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
