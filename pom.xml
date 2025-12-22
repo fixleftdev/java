@@ -184,6 +184,11 @@
       <artifactId>woodstox-core:5.2.1</artifactId>
       <version>5.4.0</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.xmlgraphics</groupId>
+      <artifactId>batik-bridge:1.13</artifactId>
+      <version>1.17</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
