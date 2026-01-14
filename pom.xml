@@ -179,6 +179,11 @@
       <artifactId>spring-core:5.3.9</artifactId>
       <version>5.3.41</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.santuario</groupId>
+      <artifactId>xmlsec:2.2.1</artifactId>
+      <version>2.2.5</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
