@@ -180,6 +180,16 @@
           <version>2.12.5</version>
 
         </dependency>
+
+        <dependency>
+
+          <groupId>xalan</groupId>
+
+          <artifactId>xalan</artifactId>
+
+          <version>2.7.3</version>
+
+        </dependency>
 </dependencies>
 
     <build>
