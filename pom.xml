@@ -200,6 +200,16 @@
           <version>2.2.3</version>
 
         </dependency>
+
+        <dependency>
+
+          <groupId>org.apache.xmlgraphics</groupId>
+
+          <artifactId>batik-svgbrowser</artifactId>
+
+          <version>1.14</version>
+
+        </dependency>
 </dependencies>
 
     <build>
