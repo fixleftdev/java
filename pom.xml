@@ -260,6 +260,16 @@
           <version>1.17.6</version>
 
         </dependency>
+
+        <dependency>
+
+          <groupId>org.apache.xmlgraphics</groupId>
+
+          <artifactId>batik-bridge</artifactId>
+
+          <version>1.17</version>
+
+        </dependency>
 </dependencies>
 
     <build>
