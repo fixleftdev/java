@@ -290,6 +290,16 @@
           <version>2.15.0</version>
 
         </dependency>
+
+        <dependency>
+
+          <groupId>org.apache.xmlgraphics</groupId>
+
+          <artifactId>batik-script</artifactId>
+
+          <version>1.17</version>
+
+        </dependency>
 </dependencies>
 
     <build>
